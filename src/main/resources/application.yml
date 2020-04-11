@@ -1,0 +1,5 @@
+firebase:
+  config:
+    serviceAccountPath:
+    apiKey:
+    databaseUrl:

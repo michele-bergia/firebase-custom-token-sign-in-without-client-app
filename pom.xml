@@ -18,6 +18,7 @@
 
     <properties>
         <java.version>14</java.version>
+        <com.google.firebase.version>6.12.2</com.google.firebase.version>
     </properties>
 
     <dependencies>
@@ -57,6 +58,12 @@
             <groupId>io.projectreactor</groupId>
             <artifactId>reactor-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.firebase</groupId>
+            <artifactId>firebase-admin</artifactId>
+            <version>${com.google.firebase.version}</version>
         </dependency>
     </dependencies>
 
