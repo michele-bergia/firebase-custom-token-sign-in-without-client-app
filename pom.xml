@@ -12,9 +12,11 @@
 
     <groupId>com.michelebergia</groupId>
     <artifactId>firebase-custom-token-sign-in</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>firebase-custom-token-sign-in</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Demo project to generate a valid ID Token from a custom token in Firebase without passing through a
+        client app
+    </description>
 
     <properties>
         <java.version>14</java.version>
