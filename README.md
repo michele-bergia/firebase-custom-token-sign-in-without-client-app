@@ -14,10 +14,11 @@ So this project aims to:
 ## How
 
 - Download the latest version from the Release section
-- Execute the generated JAR with `java -jar -Dfirebase.config.api-key=<your-api-key> -Dfirebase.config.database-url=<your-firebase-database-url> -Dfirebase.config.service-account-path=<path-to-your-service-account-JSON-file> firebase-custom-token-sign-in-0.0.1-SNAPSHOT.jar` where:
+- Execute the generated JAR with `java -jar -Dfirebase.config.api-key=<your-api-key> -Dfirebase.config.database-url=<your-firebase-database-url> -Dfirebase.config.service-account-path=<path-to-your-service-account-JSON-file> firebase-custom-token-sign-in-<version>.jar` where:
   - _your-api-key_ is the Google Cloud API Key for your Firebase project
   - _your-firebase-database-url_ is the URL of your Firebase URL
   - _path-to-your-service-account-JSON-file_ is the path to your Json service account
+  - _version_ is the version of downloaded JAR
 
 ## Endpoints
 
