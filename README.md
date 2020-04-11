@@ -7,7 +7,7 @@ The purpose of this project is to build a very simple REST Spring Boot applicati
 ## Why
 
 While working on app project that uses Firebase to authenticate users, I was always struggling to have an idToken in order to test my REST API server (since our APIs calls requires a bearer token).
-So this projects aim to:
+So this project aims to:
 - Do integration tests where you rely on idToken for security
 - Develop your Java Firebase server without having a client app to sign in your custom tokens
 
@@ -28,7 +28,7 @@ So this projects aim to:
   - `mail` String
 - `POST /idToken/validate`, with the following required request body:
   - the string of the ID Token
-  
+- More to come
 ## Donate
 
 If you liked the project and find it usefull, why not offering a small cup of coffee? :) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/michelebergia)
