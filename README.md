@@ -1,17 +1,17 @@
-#Firebase Custom Token Sign-In without Client App 
+# Firebase Custom Token Sign-In without Client App 
 
 The purpose of this project is to build a very simple REST Spring Boot application in order to:
 - Generate an idToken without having to pass through a client app
 - Check if a token is valid or not
 
-##Why
+## Why
 
 While working on app project that uses Firebase to authenticate users, I was always struggling to have an idToken in order to test my REST API server (since our APIs calls requires a bearer token).
 So this projects aim to:
 - Do integration tests where you rely on idToken for security
 - Develop your Java Firebase server without having a client app to sign in your custom tokens
 
-##How
+## How
 
 - Clone the project
 - Run `mvn clean -Dmaven.test.skip=true package spring-boot:repackage`
@@ -20,7 +20,7 @@ So this projects aim to:
   - _your-firebase-database-url_ is the URL of your Firebase URL
   - _path-to-your-service-account-JSON-file_ is the path to your Json service account
 
-##Endpoints
+## Endpoints
 
 - `GET /idToken/generate` with the followings required request param:
   - `customUID` String, your test custom ID
@@ -29,6 +29,6 @@ So this projects aim to:
 - `POST /idToken/validate`, with the following required request body:
   - the string of the ID Token
   
-##Donate
+## Donate
 
 If you liked the project and find it usefull, why not offering a small cup of coffee? :) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/michelebergia)
